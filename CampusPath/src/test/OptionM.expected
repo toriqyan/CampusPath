@@ -1,0 +1,13 @@
+Menu:
+	r to find a route
+	b to see a list of all buildings
+	q to quit
+
+Enter an option ('m' to see the menu): # Test the output when the user types in command m in request of the menu
+Menu:
+	r to find a route
+	b to see a list of all buildings
+	q to quit
+
+Enter an option ('m' to see the menu): 
+# Quit the test script 

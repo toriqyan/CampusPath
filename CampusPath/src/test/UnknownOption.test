@@ -1,0 +1,7 @@
+# Test the output when the user inputs unknown command
+ab
+
+a
+
+# Quit the test script
+q

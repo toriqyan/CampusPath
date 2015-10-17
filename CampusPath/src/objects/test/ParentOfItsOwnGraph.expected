@@ -1,0 +1,18 @@
+# Tests that a graph can be created, one node and
+# edge from the node to itself can be added, 
+# and one node and one edge can be printed out.
+
+# Create a graph
+created graph TheLordOfTheRing6
+
+# Add a pair of nodes
+added node Frodo to TheLordOfTheRing6
+added node Gandalf to TheLordOfTheRing6
+
+# Add an edge
+added edge TheHobbit from Frodo to Gandalf in TheLordOfTheRing6
+added edge TheReturnOfTheKing from Frodo to Frodo in TheLordOfTheRing6
+
+# Print the nodes in the graph and the outgoing edges from Frodo
+TheLordOfTheRing6 contains: Frodo Gandalf
+the children of Frodo in TheLordOfTheRing6 are: Frodo(TheReturnOfTheKing) Gandalf(TheHobbit)

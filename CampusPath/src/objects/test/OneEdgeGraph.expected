@@ -1,0 +1,17 @@
+# Tests that a graph can be created, a pair of nodes and
+# an edge between them can be added, and a pair of nodes
+# and a single edge can be printed out.
+
+# Create a graph
+created graph TheLordOfTheRing1
+
+# Add a pair of nodes
+added node Bilbo to TheLordOfTheRing1
+added node Gandalf to TheLordOfTheRing1
+
+# Add an edge
+added edge TheHobbit from Bilbo to Gandalf in TheLordOfTheRing1
+
+# Print the nodes in the graph and the outgoing edges from Bilbo
+TheLordOfTheRing1 contains: Bilbo Gandalf
+the children of Bilbo in TheLordOfTheRing1 are: Gandalf(TheHobbit)

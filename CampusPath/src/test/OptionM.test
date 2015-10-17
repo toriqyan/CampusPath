@@ -1,0 +1,5 @@
+# Test the output when the user types in command m in request of the menu
+m
+
+# Quit the test script 
+q

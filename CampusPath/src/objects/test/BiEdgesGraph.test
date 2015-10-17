@@ -1,0 +1,27 @@
+# Tests that a graph can be created, four nodes and
+# two pairs of cross edges and two other edges can be added, 
+# and four nodes and six edges can be printed out.
+
+# Create a graph
+CreateGraph TheLordOfTheRing5
+
+# Add four nodes
+AddNode TheLordOfTheRing5 Frodo
+AddNode TheLordOfTheRing5 Gandalf
+AddNode TheLordOfTheRing5 Samwise
+AddNode TheLordOfTheRing5 Arwin
+
+# Add six edges
+AddEdge TheLordOfTheRing5 Gandalf Frodo TheHobbit
+AddEdge TheLordOfTheRing5 Samwise Frodo TheReturnOfTheKing
+AddEdge TheLordOfTheRing5 Samwise Frodo TheTwoTowers
+AddEdge TheLordOfTheRing5 Frodo Samwise TheTwoTowers
+AddEdge TheLordOfTheRing5 Samwise Arwin TheFellowshipOfTheRing
+AddEdge TheLordOfTheRing5 Arwin Gandalf TheFellowshipOfTheRing
+
+# Print the nodes in the graph and the outgoing edges from Frodo, Gandalf, Arwin, Samwise
+ListNodes TheLordOfTheRing5
+ListChildren TheLordOfTheRing5 Frodo
+ListChildren TheLordOfTheRing5 Gandalf
+ListChildren TheLordOfTheRing5 Arwin
+ListChildren TheLordOfTheRing5 Samwise

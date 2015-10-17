@@ -1,0 +1,17 @@
+Menu:
+	r to find a route
+	b to see a list of all buildings
+	q to quit
+
+Enter an option ('m' to see the menu): # Test if the program correctly outputs the closest path between two neighbor building
+Abbreviated name of starting building: Abbreviated name of ending building: Path from McCarty Hall (Main Entrance) to McCarty Hall (South Entrance): 
+	Walk 30 feet S to (2343, 543)
+	Walk 50 feet S to (2341, 567)
+	Walk 37 feet SE to (2353, 578)
+	Walk 51 feet SE to (2371, 595)
+	Walk 85 feet SE to (2398, 627)
+	Walk 110 feet NE to (2437, 610)
+Total distance: 363 feet
+
+Enter an option ('m' to see the menu): 
+# Quit the test script

@@ -1,0 +1,5 @@
+# Test the output when the user types in command b for the list of all the buildings
+b
+
+# All of your test scripts should end with q to terminate the program.
+q

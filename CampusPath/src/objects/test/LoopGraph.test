@@ -1,0 +1,26 @@
+# Tests that a graph can be created, four nodes and
+# five edges that create a loop can be added, 
+# and four nodes and five edges can be printed out.
+
+# Create a graph
+CreateGraph TheLordOfTheRing4
+
+# Add four nodes
+AddNode TheLordOfTheRing4 Frodo
+AddNode TheLordOfTheRing4 Gandalf
+AddNode TheLordOfTheRing4 Samwise
+AddNode TheLordOfTheRing4 Arwin
+
+# Add five edges
+AddEdge TheLordOfTheRing4 Gandalf Frodo TheHobbit
+AddEdge TheLordOfTheRing4 Frodo Samwise TheReturnOfTheKing
+AddEdge TheLordOfTheRing4 Frodo Samwise TheTwoTowers
+AddEdge TheLordOfTheRing4 Samwise Arwin TheFellowshipOfTheRing
+AddEdge TheLordOfTheRing4 Arwin Gandalf TheFellowshipOfTheRing
+
+# Print the nodes in the graph and the outgoing edges from Frodo, Gandalf, Arwin, Samwise
+ListNodes TheLordOfTheRing4
+ListChildren TheLordOfTheRing4 Frodo
+ListChildren TheLordOfTheRing4 Gandalf
+ListChildren TheLordOfTheRing4 Arwin
+ListChildren TheLordOfTheRing4 Samwise

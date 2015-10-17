@@ -1,0 +1,7 @@
+# Verify that the program correctly outputs when the building is unknown
+r
+CEE
+ABC
+
+# All of test scripts would end with q to terminate the program.
+q

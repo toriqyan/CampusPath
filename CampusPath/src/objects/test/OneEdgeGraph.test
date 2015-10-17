@@ -1,0 +1,17 @@
+# Tests that a graph can be created, a pair of nodes and
+# an edge between them can be added, and a pair of nodes
+# and a single edge can be printed out.
+
+# Create a graph
+CreateGraph TheLordOfTheRing1
+
+# Add a pair of nodes
+AddNode TheLordOfTheRing1 Bilbo
+AddNode TheLordOfTheRing1 Gandalf
+
+# Add an edge
+AddEdge TheLordOfTheRing1 Bilbo Gandalf TheHobbit
+
+# Print the nodes in the graph and the outgoing edges from Bilbo
+ListNodes TheLordOfTheRing1
+ListChildren TheLordOfTheRing1 Bilbo

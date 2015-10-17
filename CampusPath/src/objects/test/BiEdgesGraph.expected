@@ -1,0 +1,27 @@
+# Tests that a graph can be created, four nodes and
+# two pairs of cross edges and two other edges can be added, 
+# and four nodes and six edges can be printed out.
+
+# Create a graph
+created graph TheLordOfTheRing5
+
+# Add four nodes
+added node Frodo to TheLordOfTheRing5
+added node Gandalf to TheLordOfTheRing5
+added node Samwise to TheLordOfTheRing5
+added node Arwin to TheLordOfTheRing5
+
+# Add six edges
+added edge TheHobbit from Gandalf to Frodo in TheLordOfTheRing5
+added edge TheReturnOfTheKing from Samwise to Frodo in TheLordOfTheRing5
+added edge TheTwoTowers from Samwise to Frodo in TheLordOfTheRing5
+added edge TheTwoTowers from Frodo to Samwise in TheLordOfTheRing5
+added edge TheFellowshipOfTheRing from Samwise to Arwin in TheLordOfTheRing5
+added edge TheFellowshipOfTheRing from Arwin to Gandalf in TheLordOfTheRing5
+
+# Print the nodes in the graph and the outgoing edges from Frodo, Gandalf, Arwin, Samwise
+TheLordOfTheRing5 contains: Arwin Frodo Gandalf Samwise
+the children of Frodo in TheLordOfTheRing5 are: Samwise(TheTwoTowers)
+the children of Gandalf in TheLordOfTheRing5 are: Frodo(TheHobbit)
+the children of Arwin in TheLordOfTheRing5 are: Gandalf(TheFellowshipOfTheRing)
+the children of Samwise in TheLordOfTheRing5 are: Arwin(TheFellowshipOfTheRing) Frodo(TheReturnOfTheKing) Frodo(TheTwoTowers)

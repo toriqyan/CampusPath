@@ -1,0 +1,23 @@
+# Tests that a graph can be created, three node and
+# four edges from different parents to the same child can be added, 
+# and one node and four edges can be printed out.
+
+# Create a graph
+created graph TheLordOfTheRing
+
+# Add four nodes
+added node Frodo to TheLordOfTheRing
+added node Gandalf to TheLordOfTheRing
+added node Samwise to TheLordOfTheRing
+
+# Add four edges
+added edge TheHobbit from Gandalf to Frodo in TheLordOfTheRing
+added edge TheReturnOfTheKing from Samwise to Frodo in TheLordOfTheRing
+added edge TheTwoTowers from Samwise to Frodo in TheLordOfTheRing
+added edge TheFellowshipOfTheRing from Samwise to Frodo in TheLordOfTheRing
+
+# Print the nodes in the graph and the outgoing edges from Frodo, Gandalf and Samwise
+TheLordOfTheRing contains: Frodo Gandalf Samwise
+the children of Frodo in TheLordOfTheRing are: 
+the children of Gandalf in TheLordOfTheRing are: Frodo(TheHobbit)
+the children of Samwise in TheLordOfTheRing are: Frodo(TheFellowshipOfTheRing) Frodo(TheReturnOfTheKing) Frodo(TheTwoTowers)

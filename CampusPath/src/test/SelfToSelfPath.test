@@ -1,0 +1,12 @@
+# Verify that the program finds and correctly outputs the shortest path 
+# from a place to itself
+r
+CSE
+CSE
+
+r
+KNE
+KNE
+
+# All of test scripts would end with q to terminate the program.
+q

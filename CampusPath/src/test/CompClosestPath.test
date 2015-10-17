@@ -1,0 +1,27 @@
+# Verify that the program always finds the closest path and has correct output
+r
+CSE
+PAB
+
+r
+MUS
+MGH
+
+r r
+
+abc
+
+m
+
+b
+
+r
+OOG
+CSE
+
+r
+GOO
+GEE
+
+# All of your test scripts should end with q to terminate the program.
+q

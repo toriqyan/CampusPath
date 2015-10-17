@@ -1,0 +1,22 @@
+# Tests that a graph can be created, three nodes and
+# three edges from the same parent to the same child 
+# and one edge from the same parent to a different child can be added, 
+# and three nodes and four edges can be printed out.
+
+# Create a graph
+CreateGraph TheLordOfTheRing3
+
+# Add three nodes
+AddNode TheLordOfTheRing3 Frodo
+AddNode TheLordOfTheRing3 Gandalf
+AddNode TheLordOfTheRing3 Samwise
+
+# Add four edges
+AddEdge TheLordOfTheRing3 Frodo Gandalf TheHobbit
+AddEdge TheLordOfTheRing3 Frodo Samwise TheReturnOfTheKing
+AddEdge TheLordOfTheRing3 Frodo Samwise TheTwoTowers
+AddEdge TheLordOfTheRing3 Frodo Samwise TheFellowshipOfTheRing
+
+# Print the nodes in the graph and the outgoing edges from Frodo
+ListNodes TheLordOfTheRing3
+ListChildren TheLordOfTheRing3 Frodo

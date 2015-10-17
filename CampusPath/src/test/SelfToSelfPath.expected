@@ -1,0 +1,16 @@
+Menu:
+	r to find a route
+	b to see a list of all buildings
+	q to quit
+
+Enter an option ('m' to see the menu): # Verify that the program finds and correctly outputs the shortest path 
+# from a place to itself
+Abbreviated name of starting building: Abbreviated name of ending building: Path from Paul G. Allen Center for Computer Science & Engineering to Paul G. Allen Center for Computer Science & Engineering:
+Total distance: 0 feet
+
+Enter an option ('m' to see the menu): 
+Abbreviated name of starting building: Abbreviated name of ending building: Path from Kane Hall (North Entrance) to Kane Hall (North Entrance): 
+Total distance: 0 feet
+
+Enter an option ('m' to see the menu): 
+# All of test scripts would end with q to terminate the program.

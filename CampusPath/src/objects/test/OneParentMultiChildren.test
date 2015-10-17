@@ -1,0 +1,21 @@
+# Tests that a graph can be created, four nodes and
+# edges from one node to the other three can be added, 
+# and four nodes and three edges can be printed out.
+
+# Create a graph
+CreateGraph TheLordOfTheRing2
+
+# Add four nodes
+AddNode TheLordOfTheRing2 Bilbo
+AddNode TheLordOfTheRing2 Gandalf
+AddNode TheLordOfTheRing2 Arwin
+AddNode TheLordOfTheRing2 Samwise
+
+# Add three edges from Bilbo to different children
+AddEdge TheLordOfTheRing2 Bilbo Gandalf TheHobbit
+AddEdge TheLordOfTheRing2 Bilbo Arwin TheTwoTowers
+AddEdge TheLordOfTheRing2 Bilbo Samwise TheTwoTowers
+
+# Print the nodes in the graph and the outgoing edges from Bilbo
+ListNodes TheLordOfTheRing2
+ListChildren TheLordOfTheRing2 Bilbo
